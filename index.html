@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToroSports — Liberia Independence Day Special Edition Tee</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- STICKY HEADER -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#" class="logo-wrap">
+        <img src="assets/torosports-logo.png" alt="ToroSports" class="logo-img" />
+      </a>
+      <nav class="nav-links">
+        <a href="#products">Collection</a>
+        <a href="#benefits">Features</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a href="#order" class="btn-header">Shop Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#products" onclick="closeMobileNav()">Collection</a>
+      <a href="#benefits" onclick="closeMobileNav()">Features</a>
+      <a href="#gallery" onclick="closeMobileNav()">Gallery</a>
+      <a href="#faq" onclick="closeMobileNav()">FAQ</a>
+      <a href="#order" class="btn-mobile-nav" onclick="closeMobileNav()">Shop Now</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shapes">
+      <div class="hero-shape hero-shape-1"></div>
+      <div class="hero-shape hero-shape-2"></div>
+    </div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span class="dot red"></span>
+          Special Edition · July 26th · Limited Stock
+          <span class="dot blue"></span>
+        </div>
+        <h1 class="hero-headline">
+          Liberia<br/>
+          <span class="headline-accent">Independence Day</span><br/>
+          <span class="headline-sub">Special Edition Tee</span>
+        </h1>
+        <p class="hero-desc">Premium performance wear crafted for pride, comfort, and everyday movement. Two exclusive colorways — wear your heritage.</p>
+        <div class="hero-ctas">
+          <a href="#order" class="btn-primary">Shop Now</a>
+          <a href="#products" class="btn-ghost">View Collection</a>
+        </div>
+        <div class="hero-badges">
+          <div class="badge"><span class="badge-icon">✦</span> Worldwide Shipping</div>
+          <div class="badge"><span class="badge-icon">✦</span> Premium Quality</div>
+          <div class="badge"><span class="badge-icon">✦</span> Limited Stock</div>
+        </div>
+      </div>
+      <div class="hero-image-wrap">
+        <div class="hero-img-ring"></div>
+        <img src="assets/blue-shirt-celebration.png" alt="Model wearing blue Independence Day shirt" class="hero-img" />
+        <div class="hero-img-badge">
+          <span class="hib-top">July 26th</span>
+          <span class="hib-main">2026</span>
+          <span class="hib-sub">Independence Day</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      <span>🇱🇷 Limited Stock</span>
+      <span class="sep">◆</span>
+      <span>Premium Quality</span>
+      <span class="sep">◆</span>
+      <span>Special Edition</span>
+      <span class="sep">◆</span>
+      <span>July 26th</span>
+      <span class="sep">◆</span>
+      <span>Worldwide Shipping</span>
+      <span class="sep">◆</span>
+      <span>Performance Fabric</span>
+      <span class="sep">◆</span>
+      <span>🇱🇷 Limited Stock</span>
+      <span class="sep">◆</span>
+      <span>Premium Quality</span>
+      <span class="sep">◆</span>
+      <span>Special Edition</span>
+      <span class="sep">◆</span>
+      <span>July 26th</span>
+      <span class="sep">◆</span>
+      <span>Worldwide Shipping</span>
+      <span class="sep">◆</span>
+      <span>Performance Fabric</span>
+      <span class="sep">◆</span>
+      <span>🇱🇷 Limited Stock</span>
+      <span class="sep">◆</span>
+      <span>Premium Quality</span>
+      <span class="sep">◆</span>
+      <span>Special Edition</span>
+      <span class="sep">◆</span>
+      <span>July 26th</span>
+      <span class="sep">◆</span>
+      <span>Worldwide Shipping</span>
+      <span class="sep">◆</span>
+      <span>Performance Fabric</span>
+    </div>
+  </div>
+
+  <!-- PRODUCT SHOWCASE -->
+  <section class="products" id="products">
+    <div class="section-inner">
+      <div class="section-label">The Collection</div>
+      <h2 class="section-title">Two Ways to Celebrate <span class="accent-red">Freedom</span></h2>
+      <p class="section-sub">Choose your edition. Both carry the same premium performance fabric and the spirit of July 26th.</p>
+
+      <div class="product-cards">
+        <!-- BLUE CARD -->
+        <div class="product-card" data-color="blue">
+          <div class="product-card-tag blue-tag">Blue Edition</div>
+          <div class="product-card-img-wrap">
+            <img src="assets/blue-shirt-grass.png" alt="Blue Independence Day Shirt" class="product-card-img" loading="lazy" />
+          </div>
+          <div class="product-card-body">
+            <h3>Blue & White</h3>
+            <p>Independence Day Performance Tee</p>
+            <div class="product-price">
+              <span class="price-label">Starting from</span>
+              <span class="price-val">Contact for Price</span>
+            </div>
+            <button class="btn-select" onclick="selectColor('blue')">Select Blue Edition</button>
+          </div>
+        </div>
+        <!-- RED CARD -->
+        <div class="product-card" data-color="red">
+          <div class="product-card-tag red-tag">Red Edition</div>
+          <div class="product-card-img-wrap">
+            <img src="assets/red-shirt-grass.png" alt="Red Independence Day Shirt" class="product-card-img" loading="lazy" />
+          </div>
+          <div class="product-card-body">
+            <h3>Red & White</h3>
+            <p>Independence Day Performance Tee</p>
+            <div class="product-price">
+              <span class="price-label">Starting from</span>
+              <span class="price-val">Contact for Price</span>
+            </div>
+            <button class="btn-select" onclick="selectColor('red')">Select Red Edition</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER BUILDER -->
+  <section class="order-builder" id="order">
+    <div class="section-inner">
+      <div class="section-label">Quick Order</div>
+      <h2 class="section-title">Build Your <span class="accent-blue">Order</span></h2>
+
+      <div class="order-wrap">
+        <!-- PREVIEW -->
+        <div class="order-preview">
+          <div class="order-preview-img-wrap">
+            <img src="assets/blue-shirt-grass.png" alt="Selected shirt" class="order-preview-img" id="previewImg" />
+          </div>
+          <div class="order-poster-strip">
+            <img src="assets/both-shirts-poster.png" alt="Both editions" class="poster-strip-img" />
+          </div>
+        </div>
+
+        <!-- SELECTORS -->
+        <div class="order-selectors">
+          <!-- COLOR -->
+          <div class="selector-group">
+            <div class="selector-label">Choose Color</div>
+            <div class="color-options">
+              <button class="color-opt active" id="colorBlue" onclick="setColor('blue')">
+                <span class="color-swatch blue-swatch"></span> Blue Edition
+              </button>
+              <button class="color-opt" id="colorRed" onclick="setColor('red')">
+                <span class="color-swatch red-swatch"></span> Red Edition
+              </button>
+            </div>
+          </div>
+
+          <!-- SIZE -->
+          <div class="selector-group">
+            <div class="selector-label">Choose Size</div>
+            <div class="size-options" id="sizeOptions">
+              <button class="size-opt" onclick="setSize(this)">S</button>
+              <button class="size-opt" onclick="setSize(this)">M</button>
+              <button class="size-opt active" onclick="setSize(this)">L</button>
+              <button class="size-opt" onclick="setSize(this)">XL</button>
+              <button class="size-opt" onclick="setSize(this)">XXL</button>
+            </div>
+          </div>
+
+          <!-- QUANTITY -->
+          <div class="selector-group">
+            <div class="selector-label">Quantity</div>
+            <div class="qty-wrap">
+              <button class="qty-btn" onclick="changeQty(-1)">−</button>
+              <span class="qty-val" id="qtyVal">1</span>
+              <button class="qty-btn" onclick="changeQty(1)">+</button>
+            </div>
+          </div>
+
+          <div class="order-ctas">
+            <button class="btn-cart" onclick="addToCart()">Add to Cart</button>
+            <button class="btn-buynow" onclick="openOrderModal()">Buy Now</button>
+          </div>
+
+          <div class="order-assurance">
+            <span>🔒 Secure WhatsApp Checkout</span>
+            <span>🌍 Ships Worldwide</span>
+            <span>⭐ Premium Quality</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="benefits" id="benefits">
+    <div class="section-inner">
+      <div class="section-label">Why ToroSports</div>
+      <h2 class="section-title">Built for <span class="accent-red">Champions</span></h2>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 4C20 4 8 10 8 20C8 26.627 13.373 32 20 32C26.627 32 32 26.627 32 20C32 10 20 4 20 4Z" stroke="#DC2626" stroke-width="2" fill="none"/><path d="M14 22C14 22 16 18 20 18C24 18 26 22 26 22" stroke="#DC2626" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h4>Breathable Fabric</h4>
+          <p>Advanced mesh weave allows maximum airflow, keeping you cool under pressure.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 8L22.5 15.5H30L24 19.5L26.5 27L20 23L13.5 27L16 19.5L10 15.5H17.5L20 8Z" stroke="#1D4ED8" stroke-width="2" fill="none"/></svg>
+          </div>
+          <h4>Lightweight Comfort</h4>
+          <p>Engineered for all-day wear. Feels like a second skin from morning to evening.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 8C20 8 12 14 12 22C12 26.418 15.582 30 20 30C24.418 30 28 26.418 28 22C28 14 20 8 20 8Z" stroke="#DC2626" stroke-width="2" fill="none"/><path d="M17 24L20 20L23 24" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h4>Sweat Wicking</h4>
+          <p>Moisture management technology pulls sweat away fast for dry, fresh performance.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="10" width="20" height="20" rx="2" stroke="#1D4ED8" stroke-width="2" fill="none"/><path d="M15 20L18 23L25 16" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h4>Premium Stitching</h4>
+          <p>Reinforced seams and export-grade finishing that outlasts regular sportswear.</p>
+        </div>
+        <div class="benefit-card highlight-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L23 14H32L25 19L27.5 28L20 23L12.5 28L15 19L8 14H17L20 6Z" stroke="#DC2626" stroke-width="2" fill="none"/></svg>
+          </div>
+          <h4>Limited Stock</h4>
+          <p>Exclusive special edition — once these are gone, they're gone. Order before they sell out.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="12" stroke="#1D4ED8" stroke-width="2" fill="none"/><path d="M20 14V20L24 24" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h4>Made for Champions</h4>
+          <p>Worn by athletes across the globe. International-grade sportswear that performs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY — PRODUCT VIEWS -->
+  <section class="gallery-section" id="gallery">
+    <div class="section-inner">
+      <div class="section-label">Product Gallery</div>
+      <h2 class="section-title">Front & Back <span class="accent-blue">Views</span></h2>
+      <div class="gallery-tabs">
+        <button class="gtab active" onclick="setGalleryTab(this,'product')">Product Views</button>
+        <button class="gtab" onclick="setGalleryTab(this,'lifestyle')">Lifestyle Shoot</button>
+      </div>
+      <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-item tall">
+          <img src="assets/red-shirt-product.png" alt="Red shirt product view" loading="lazy"/>
+          <div class="gallery-caption">Red Edition — Front View</div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/blue-shirt-grass.png" alt="Blue shirt on grass" loading="lazy"/>
+          <div class="gallery-caption">Blue Edition — Lifestyle</div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/red-shirt-grass.png" alt="Red shirt on grass" loading="lazy"/>
+          <div class="gallery-caption">Red Edition — Lifestyle</div>
+        </div>
+        <div class="gallery-item wide">
+          <img src="assets/both-shirts-wood.png" alt="Both shirts on wood" loading="lazy"/>
+          <div class="gallery-caption">Both Editions — Together</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIFESTYLE SECTION -->
+  <section class="lifestyle-section">
+    <div class="section-inner">
+      <div class="lifestyle-split">
+        <div class="lifestyle-img-col">
+          <img src="assets/blue-shirt-stadium.png" alt="Model in stadium" class="ls-img-main" loading="lazy"/>
+          <img src="assets/red-shirt-model-outdoor.png" alt="Model outdoors" class="ls-img-secondary" loading="lazy"/>
+        </div>
+        <div class="lifestyle-text-col">
+          <div class="section-label">The Story</div>
+          <h2 class="section-title">Wear the <span class="accent-red">Pride</span></h2>
+          <p>This special edition isn't just a shirt — it's a statement. Designed for Liberians everywhere to celebrate their heritage with uncompromising style and performance quality trusted by athletes worldwide.</p>
+          <p>Whether you're at the stadium, city streets, or simply celebrating July 26th with family — this tee was made for you.</p>
+          <a href="#order" class="btn-primary">Order Yours Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST SECTION -->
+  <section class="trust-section">
+    <div class="section-inner">
+      <div class="section-label">Brand Promise</div>
+      <h2 class="section-title">Why the World <span class="accent-blue">Trusts ToroSports</span></h2>
+      <div class="trust-grid">
+        <div class="trust-item">
+          <div class="trust-num">01</div>
+          <h4>International Quality Standard</h4>
+          <p>Every garment is manufactured to meet global export quality benchmarks.</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-num">02</div>
+          <h4>Sportswear Manufacturing</h4>
+          <p>Purpose-built factory processes designed for performance athletic apparel.</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-num">03</div>
+          <h4>Trusted by Global Clients</h4>
+          <p>UK and US based clubs, brands, and organizations rely on ToroSports.</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-num">04</div>
+          <h4>Premium Export Quality</h4>
+          <p>Finished to the same standard as products shipping to international markets.</p>
+        </div>
+      </div>
+      <div class="trust-logo-row">
+        <img src="assets/torosports-logo.png" alt="ToroSports" class="trust-logo" />
+        <p class="trust-tagline">Performance · Quality · Passion</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section" id="faq">
+    <div class="section-inner faq-inner">
+      <div class="section-label">Got Questions?</div>
+      <h2 class="section-title">Frequently Asked <span class="accent-red">Questions</span></h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            How do I place an order?
+            <span class="faq-arrow">↓</span>
+          </button>
+          <div class="faq-a">Click "Buy Now" or "Order on WhatsApp" — fill in the quick form and you'll be connected directly to our WhatsApp with your order pre-filled. Our team confirms and ships within 48 hours.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Do you ship internationally?
+            <span class="faq-arrow">↓</span>
+          </button>
+          <div class="faq-a">Yes, ToroSports ships worldwide. We serve clients in the UK, US, and across Africa. Delivery times vary by location — typically 7–14 business days for international orders.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            What sizes are available?
+            <span class="faq-arrow">↓</span>
+          </button>
+          <div class="faq-a">Sizes S, M, L, XL, and XXL are available. This is an athletic fit — if you prefer a relaxed fit, we recommend sizing up. Contact us on WhatsApp if you need a size guide.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Can I order both colors?
+            <span class="faq-arrow">↓</span>
+          </button>
+          <div class="faq-a">Absolutely! Many customers order both the Red and Blue editions. Simply mention both colors in your order form or WhatsApp message and we'll pack them together.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Is this truly limited edition?
+            <span class="faq-arrow">↓</span>
+          </button>
+          <div class="faq-a">Yes. This is a special production run for Liberia Independence Day 2026. Once stock sells out, these colorways will not be reproduced. Order early to secure your sizes.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            What payment methods do you accept?
+            <span class="faq-arrow">↓</span>
+          </button>
+          <div class="faq-a">We coordinate payments via WhatsApp. Our team will guide you through available payment options including bank transfer, mobile money, and other methods based on your country.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <div class="final-cta-bg"></div>
+    <div class="section-inner final-cta-inner">
+      <div class="final-shirts">
+        <img src="assets/red-shirt-product.png" alt="Red shirt" class="final-shirt final-shirt-left" />
+        <img src="assets/blue-shirt-flyer.png" alt="Blue shirt" class="final-shirt final-shirt-right" />
+      </div>
+      <div class="final-text">
+        <div class="section-label light-label">Limited Time · July 26th 2026</div>
+        <h2 class="final-headline">Get Yours Before<br/><span class="accent-gold">Stock Runs Out</span></h2>
+        <p>Premium performance. Liberian pride. Ships worldwide.</p>
+        <a href="https://wa.me/923454550015" target="_blank" class="btn-whatsapp-final" id="waFinalBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="wa-icon-btn"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.557 4.122 1.528 5.853L.057 23.572a.75.75 0 0 0 .921.921l5.724-1.468A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.853 0-3.6-.504-5.1-1.38l-.365-.217-3.789.971.997-3.69-.239-.38A9.945 9.945 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          Order on WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <img src="assets/torosports-logo.png" alt="ToroSports" class="footer-logo" />
+      <p class="footer-tag">Performance · Quality · Passion</p>
+      <p class="footer-copy">© 2026 ToroSports. All rights reserved. Sportswear Manufacturing for the World.</p>
+    </div>
+  </footer>
+
+  <!-- MOBILE STICKY CTA -->
+  <div class="mobile-sticky-cta">
+    <button class="btn-buynow full-width" onclick="openOrderModal()">Buy Now — Limited Stock</button>
+  </div>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/923454550015" target="_blank" class="wa-float" aria-label="Chat on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="wa-svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.557 4.122 1.528 5.853L.057 23.572a.75.75 0 0 0 .921.921l5.724-1.468A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.853 0-3.6-.504-5.1-1.38l-.365-.217-3.789.971.997-3.69-.239-.38A9.945 9.945 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+    </svg>
+    <span class="wa-pulse"></span>
+  </a>
+
+  <!-- ORDER MODAL -->
+  <div class="modal-overlay" id="orderModal" onclick="closeModalOutside(event)">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeOrderModal()">✕</button>
+      <div class="modal-header">
+        <img src="assets/torosports-logo.png" alt="ToroSports" class="modal-logo" />
+        <h3>Place Your Order</h3>
+        <p>Fill in your details and we'll connect you on WhatsApp</p>
+      </div>
+      <form class="order-form" id="orderForm" onsubmit="submitOrder(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Full Name *</label>
+            <input type="text" id="f_name" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label>WhatsApp Number *</label>
+            <input type="tel" id="f_wa" placeholder="+1 234 567 8900" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Country *</label>
+            <input type="text" id="f_country" placeholder="e.g. Liberia, USA, UK" required />
+          </div>
+          <div class="form-group">
+            <label>City *</label>
+            <input type="text" id="f_city" placeholder="Your city" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Shirt Color *</label>
+            <select id="f_color" required>
+              <option value="">Select color</option>
+              <option value="Blue Edition">Blue Edition</option>
+              <option value="Red Edition">Red Edition</option>
+              <option value="Both (Blue + Red)">Both (Blue + Red)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Size *</label>
+            <select id="f_size" required>
+              <option value="">Select size</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Quantity *</label>
+            <input type="number" id="f_qty" min="1" max="50" value="1" required />
+          </div>
+          <div class="form-group">
+            <label>Delivery Address *</label>
+            <input type="text" id="f_address" placeholder="Full delivery address" required />
+          </div>
+        </div>
+        <div class="form-group full-width">
+          <label>Notes / Special Requests</label>
+          <textarea id="f_notes" rows="3" placeholder="Any special requests, bulk order details, etc."></textarea>
+        </div>
+        <button type="submit" class="btn-form-submit">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.557 4.122 1.528 5.853L.057 23.572a.75.75 0 0 0 .921.921l5.724-1.468A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.853 0-3.6-.504-5.1-1.38l-.365-.217-3.789.971.997-3.69-.239-.38A9.945 9.945 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          Continue to WhatsApp
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
